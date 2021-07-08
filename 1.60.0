@@ -1,0 +1,35 @@
+
+> snappy@6.3.5 install C:\wamp64\www\js\hola-mundo\node_modules\snappy
+> prebuild-install || node-gyp rebuild
+
+
+C:\wamp64\www\js\hola-mundo\node_modules\snappy>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild ) 
+
+> protobufjs@6.11.2 postinstall C:\wamp64\www\js\hola-mundo\node_modules\protobufjs
+> node scripts/postinstall
+
+
+> aws-sdk@2.941.0 postinstall C:\wamp64\www\js\hola-mundo\node_modules\aws-sdk
+> node scripts/check-node-version.js
+
+
+> serverless@2.51.0 postinstall C:\wamp64\www\js\hola-mundo\node_modules\serverless
+> node ./scripts/postinstall.js
+
+
+   ┌───────────────────────────────────────────────────┐
+   │                                                   │
+   │   Serverless Framework successfully installed!    │
+   │                                                   │
+   │   To start your first project run “serverless”.   │
+   │                                                   │
+   └───────────────────────────────────────────────────┘
+
++ serverless@2.51.0
+added 642 packages from 421 contributors and audited 798 packages in 462.62s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+found 93 vulnerabilities (23 low, 70 high)
+  run `npm audit fix` to fix them, or `npm audit` for details

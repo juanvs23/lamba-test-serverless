@@ -1,0 +1,21 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devlocal": "nodemon --exec serverless offline start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "serverless": "1.60.0",
+    "serverless-offline": "^3.25.11"
+  }
+}
